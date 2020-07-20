@@ -1,0 +1,20 @@
+-- SELECT life_registry.name, ROUND((omega * 1.618), 3)
+-- FROM (
+--     SELECT * FROM life_registry INNER JOIN dimensions
+--     ON life_registry.dimensions_id = dimensions.id
+--     WHERE dimensions.name = 'C875'
+--     ORDER BY omega DESC
+--     LIMIT 1
+--     UNION 
+--     SELECT * FROM life_registry INNER JOIN dimensions
+--     ON life_registry.dimensions_id = dimensions.id
+--     WHERE dimensions.name = 'C774'
+--     ORDER BY omega DESC
+--     LIMIT 1
+-- )
+-- ORDER BY omega;
+
+--     life_registry INNER JOIN dimensions
+-- ON life_registry.dimensions_id = dimensions.id
+-- WHERE dimensions.name IN ('C875', 'C774')
+-- ORDER BY omega);
