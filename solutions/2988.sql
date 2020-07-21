@@ -1,0 +1,4 @@
+-- SELECT name 
+-- FROM teams INNER JOIN matches
+-- ON teams.id = matches.team_1
+-- GROUP BY matches.team_1
