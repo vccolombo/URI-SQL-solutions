@@ -1,0 +1,7 @@
+-- SELECT a.temperature, b.number_of_records 
+-- FROM records a, (
+--     SELECT mark, COUNT(*) AS number_of_records
+--     FROM records
+--     GROUP BY mark
+-- ) b
+-- WHERE a.mark = b.mark;
